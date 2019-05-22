@@ -51,10 +51,18 @@
 #### 2.1 window
 #### 2.2 mac
 ### 3. 安装证书
+
+可用浏览器访问 http://bzkj.tech:2117/wechat/doc 然后下载，也可直接点击下面
+
 #### 3.1 iphone
+[点我下载](http://bzkj.tech:2117/static/certificate/iphone.pem)
 #### 3.2 android
+[点我下载](http://bzkj.tech:2117/static/certificate/android.cer)
 #### 3.3 window
+ [点我下载](http://bzkj.tech:2117/static/certificate/window.p12)
 #### 3.4 mac
+ [点我下载](http://bzkj.tech:2117/static/certificate/mac.pem)
+
 
 ### 4. 配置代理
 

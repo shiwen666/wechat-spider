@@ -101,10 +101,6 @@
 ![A580D0082CCEE0621F98FAF003C5530E](media/A580D0082CCEE0621F98FAF003C5530E.png)
 ![95AE10B3227FDE0637AB227A5A8267E3](media/95AE10B3227FDE0637AB227A5A8267E3.png)
 
-里面小选项卡的连接
-
-    http://bigdata.baiinfo.com.cn/GongXu/GetCorpCapacteData?TemplateID=4&productID=42&startTime=2018-05&endTime=2019-05&flag=-1&num=0
-
 #### 3.4 mac
 
 打开系统配置（System Preferences.app）- 网络（Network）- 高级（Advanced）- 代理（Proxies）- Secure Web Proxy(HTTPS)

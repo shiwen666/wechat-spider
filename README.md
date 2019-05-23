@@ -55,13 +55,31 @@
 可用浏览器访问 http://bzkj.tech:2117/wechat/doc 然后下载，也可直接点击下面
 
 #### 3.1 iphone
-[点我下载](http://bzkj.tech:2117/static/certificate/iphone.pem)
+1. [点我下载](http://bzkj.tech:2117/static/certificate/iphone.pem)
+2. 下载安装完毕后别忘记最后一步
+3. 打开设置-通用-关于本机-证书信任设置
+4. 开启mitmproxy选项。
+
 #### 3.2 android
-[点我下载](http://bzkj.tech:2117/static/certificate/android.cer)
+1. [点我下载](http://bzkj.tech:2117/static/certificate/android.cer)
+2. 安装完毕检查
+3. 打开设置-安全-信任的凭据
+4. 查看安装的证书是否存在
+
 #### 3.3 window
- [点我下载](http://bzkj.tech:2117/static/certificate/window.p12)
+ 1. [点我下载](http://bzkj.tech:2117/static/certificate/window.p12)
+ 2. 双击运行
+ 3. 安装到本地计算机
+ 4. 需要密钥时跳过
+ 5. 选择“将所有的证书都放入下列存储”，接着选择“受信任的根证书颁发机构”
+ 6. 最后，弹出警告窗口，直接点击“是”
+
 #### 3.4 mac
- [点我下载](http://bzkj.tech:2117/static/certificate/mac.pem)
+1. [点我下载](http://bzkj.tech:2117/static/certificate/mac.pem)
+2. 下载完双击安装
+3. 打开Keychain Access.app
+4. 选择login(Keychains)和Certificates(Category)中找到mitmproxy
+5. 点击mitmproxy，在Trust中选择Always Trust
 
 
 ### 4. 配置代理
@@ -79,6 +97,14 @@
 填上该安装服务器的IP和端口8080
 
 #### 3.3 window
+打开chrome 设置->高级
+![A580D0082CCEE0621F98FAF003C5530E](media/A580D0082CCEE0621F98FAF003C5530E.png)
+![95AE10B3227FDE0637AB227A5A8267E3](media/95AE10B3227FDE0637AB227A5A8267E3.png)
+
+里面小选项卡的连接
+
+    http://bigdata.baiinfo.com.cn/GongXu/GetCorpCapacteData?TemplateID=4&productID=42&startTime=2018-05&endTime=2019-05&flag=-1&num=0
+
 #### 3.4 mac
 
 打开系统配置（System Preferences.app）- 网络（Network）- 高级（Advanced）- 代理（Proxies）- Secure Web Proxy(HTTPS)

@@ -21,6 +21,7 @@ spider:
     min_sleep_time: 5
     max_sleep_time: 10
   no_task_sleep_time: 30 # 当无任务时休眠时间
+  service_port: 8080 # 服务的端口
 
 log:
   level: INFO

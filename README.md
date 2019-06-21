@@ -163,10 +163,10 @@
       passwd: "123456"
       auto_create_tables: true # 是否自动建表 建议当表不存在是设置为true，表存在是设置为false，加快软件启动速度
 
-###2. 正确配置完代理后提示证书或安全问题
+### 2. 正确配置完代理后提示证书或安全问题
 
 原因是我那个证书失效了，可参考 https://www.cnblogs.com/yunlongaimeng/p/9617708.html 安装数据
 
-###3. 提示无任务
+### 3. 提示无任务
 
 检查 wechat_account_task 表中是否下发了__biz。可多下发几个测试

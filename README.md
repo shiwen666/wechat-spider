@@ -118,18 +118,23 @@
 
 主要是配置mysql及redis的链接信息，确保能正确链接上
 
-### 3. 启动wechat-spider
+### 3. 创建数据库 wechat
+
+![-w418](media/15610827417503.jpg)
+
+
+### 4. 启动wechat-spider
 
 此步骤如果config里的auto_create_tables值为true时，会自动创建mysql数据表。建议首次启动时设置为true，创建完表后设置为false
     
-### 4. 下发公众号任务
+### 5. 下发公众号任务
 
 ![-w201](media/15584578582622.jpg)
 录入数据到wechat_account_task, 如：
 ![-w503](media/15584579051963.jpg)
 只填写__biz就好
 
-### 5. 点击任意一公众号，查看历史消息
+### 6. 点击任意一公众号，查看历史消息
 
 ![-w637](media/15584585019970.jpg)
 
@@ -141,3 +146,27 @@
 
 <img src='https://i.imgur.com/5FM26rc.png' align = 'center' width = "250" style = "margin-top:20px">
 
+
+## 常见问题
+
+### 1. mysql 链接问题
+
+问题：链接时打印object supporting the buffer api required异常
+![](media/15610832298058.jpg)
+解决: 如果密钥是整形的，如123456，需要在配置文件中加双引号，如下：
+
+    mysqldb:
+      ip: localhost
+      port: 3306
+      db: wechat
+      user: root
+      passwd: "123456"
+      auto_create_tables: true # 是否自动建表 建议当表不存在是设置为true，表存在是设置为false，加快软件启动速度
+
+###2. 正确配置完代理后提示证书或安全问题
+
+原因是我那个证书失效了，可参考 https://www.cnblogs.com/yunlongaimeng/p/9617708.html 安装数据
+
+###3. 提示无任务
+
+检查 wechat_account_task 表中是否下发了__biz。可多下发几个测试

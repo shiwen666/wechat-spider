@@ -3,7 +3,7 @@ mysqldb:
   port: 3306
   db: wechat
   user: root
-  passwd: 123456
+  passwd: "123456"
   auto_create_tables: true # 是否自动建表 建议当表不存在是设置为true，表存在是设置为false，加快软件启动速度
 
 redisdb:

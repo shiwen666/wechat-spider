@@ -170,3 +170,12 @@
 ### 3. 提示无任务
 
 检查 wechat_account_task 表中是否下发了__biz。可多下发几个测试
+
+### 4. Exception:DISCARD without MULTI
+
+![-w406](media/15632498867519.jpg)
+
+### 5. 正常启动后抓不到包
+
+1. 检是否设置代理
+2. 检查端口是否被占用

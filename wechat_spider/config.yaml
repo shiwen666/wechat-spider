@@ -13,7 +13,7 @@ redisdb:
   passwd:
 
 spider:
-  monitor_interval: 3600 # 公众号扫码新发布文章周期时间间隔 单位秒
+  monitor_interval: 3600 # 公众号扫描新发布文章周期时间间隔 单位秒
   ignore_haved_crawl_today_article_account: true # 忽略已经抓取到今日发布文章的公众号，即今日不再监测该公众号
   redis_task_cache_root_key: wechat # reids 中缓存任务的根key 如 wechat:
   zombie_account_not_publish_article_days: 90 # 连续90天未发布新文章，判定为僵尸账号，日后不再监控

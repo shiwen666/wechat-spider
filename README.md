@@ -52,22 +52,19 @@
 #### 2.2 mac
 ### 3. 安装证书
 
-可用浏览器访问 http://bzkj.tech:2117/wechat/doc 然后下载，也可直接点击下面
+可用浏览器访问 mitm.it 然后下载，或者百度如何安装mitmproxy证书
 
 #### 3.1 iphone
-1. [点我下载](http://bzkj.tech:2117/static/certificate/iphone.pem)
-2. 下载安装完毕后别忘记最后一步
-3. 打开设置-通用-关于本机-证书信任设置
-4. 开启mitmproxy选项。
+1. 下载安装完毕后别忘记最后一步
+2. 打开设置-通用-关于本机-证书信任设置
+3. 开启mitmproxy选项。
 
 #### 3.2 android
-1. [点我下载](http://bzkj.tech:2117/static/certificate/android.cer)
-2. 安装完毕检查
-3. 打开设置-安全-信任的凭据
-4. 查看安装的证书是否存在
+1. 安装完毕检查
+2. 打开设置-安全-信任的凭据
+3. 查看安装的证书是否存在
 
 #### 3.3 window
- 1. [点我下载](http://bzkj.tech:2117/static/certificate/window.p12)
  2. 双击运行
  3. 安装到本地计算机
  4. 需要密钥时跳过
@@ -75,7 +72,6 @@
  6. 最后，弹出警告窗口，直接点击“是”
 
 #### 3.4 mac
-1. [点我下载](http://bzkj.tech:2117/static/certificate/mac.pem)
 2. 下载完双击安装
 3. 打开Keychain Access.app
 4. 选择login(Keychains)和Certificates(Category)中找到mitmproxy
@@ -132,7 +128,7 @@
 ![-w201](media/15584578582622.jpg)
 录入数据到wechat_account_task, 如：
 ![-w503](media/15584579051963.jpg)
-只填写__biz就好
+只填写__biz就好, 如：MzIxNzg1ODQ0MQ==
 
 ### 6. 点击任意一公众号，查看历史消息
 
